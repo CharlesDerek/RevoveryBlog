@@ -1,3 +1,5 @@
+This is the repository for the first recovery blog app.
+
 == README
 
 This README would normally document whatever steps are necessary to get the
