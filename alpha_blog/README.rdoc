@@ -1,5 +1,18 @@
 This is the repository for the first recovery blog app.
 
+Last edit:
+
+on S4: L65 min 3:45 
+
+1. Open alpha_blog
+2. start the server with        rails s -b $IP -p $PORT
+3. new terminal into alpha_blog
+4. open files with:
+
+    c9 config/routes.rb app/views/articles/new.html.erb app/controllers/articles_controller.rb
+
+5. then resume video
+
 == README
 
 This README would normally document whatever steps are necessary to get the
