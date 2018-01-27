@@ -2,14 +2,21 @@ This is the repository for the first recovery blog app.
 
 Last edit:
 
-on S5: L83 min 0:00
+on S4: L59 min 15:00
 
 1. Open alpha_blog
 2. start the server with        rails s -b $IP -p $PORT
 3. new terminal into alpha_blog
 4. open files with following into terminal:
-        c9 app/assets/stylesheets/custom.css.scss app/views/layouts/application.html.erb c9 app/views/articles/_form.html.erb 
-    
+        It seems It looks like all the columns exsist but are empty {rails console} - {Article.all User.all} {Article} will give all of its attributes. 
+        
+        
+        you need to go between lecture 59 -61 to make new article from db and see if problem continues 
+        
+        open app/models/article.rb
+        
+        commented out user id required and fixed issue of listings on db 
+        
 5. then resume video
 
 == README
