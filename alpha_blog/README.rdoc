@@ -2,19 +2,16 @@ This is the repository for the first recovery blog app.
 
 Last edit:
 
-on S6: L131 min 0:00    Categories Controller and Test
+on S6: L138 min 0:00    
 
 1. Open alpha_blog
 2. start the server with        rails s -b $IP -p $PORT
 3. new terminal into alpha_blog
 4. open files with following into terminal:
-        reverting to last git push (starting section 7 fixed issue)
-        Cautiously follow steps from section 7
-        
-       c9 test/models/category_test.rb app/models/category.rb app/controllers/articles_controller.rb
 
         
-        commented out user id required and fixed issue of listings on db 
+      # c9 test/models/category_test.rb app/models/category.rb app/controllers/articles_controller.rb
+
         
 5. then resume video
 
