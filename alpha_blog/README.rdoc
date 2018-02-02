@@ -2,22 +2,30 @@ This is the repository for the first recovery blog app.
 
 Last edit:
 
-on S6: L120 min 0:00
+on S6: L131 min 0:00    Categories Controller and Test
 
 1. Open alpha_blog
 2. start the server with        rails s -b $IP -p $PORT
 3. new terminal into alpha_blog
 4. open files with following into terminal:
-        It seems It looks like all the columns exsist but are empty {rails console} - {Article.all User.all} {Article} will give all of its attributes. 
+        reverting to last git push (starting section 7 fixed issue)
+        Cautiously follow steps from section 7
         
-        
-        you need to go between lecture 59 -61 to make new article from db and see if problem continues 
-        
-        open app/models/article.rb
+       c9 test/models/category_test.rb app/models/category.rb app/controllers/articles_controller.rb
+
         
         commented out user id required and fixed issue of listings on db 
         
 5. then resume video
+
+
+
+*****
+running { rake db:migrate:status }
+
+will show all the collection of migration Names, Id's, and their status
+
+****
 
 == README
 
