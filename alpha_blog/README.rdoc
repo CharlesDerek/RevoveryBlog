@@ -2,7 +2,7 @@ This is the repository for the first recovery blog app.
 
 Last edit:
 
-on S6: L138 min 0:00    
+on S6: L145 min 0:00    
 
 1. Open alpha_blog
 2. start the server with        rails s -b $IP -p $PORT
